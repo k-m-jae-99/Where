@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* 구글 폰트 */
+/*Do Hyeon*/@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+/* 전체적인 설정 */
+body{background: url(../img/태극기.jpg) no-repeat fixed center; margin: 50px 100px;}
+div{background-repeat: no-repeat;}
+a{color: black; text-decoration-line: none;}
+hr{margin: 15px 20px 15px 5px;}
+
+/* header */
+header{float:left; background-color: skyblue; width: 1650px;}
+#paperairplane{float: left; width: 96px; height: 96px; margin:10px;}
+#where{float: left; margin-top: 35px; margin-left: 20px;}
+#where > a{color: white; font-family: "Do Hyeon";}
+
+/* header nav */
+.menu {float: right; width: 800px; height: 25px; list-style: none; margin-top: 150px; margin-right: 100px;}
+.menu > li {float: left; width: 25%; height: 30px; position: relative; text-align: center;}
+.menu > li > a{font-weight:bold; color: white; font-size: 20px;}
+.menu > li:hover {background-color: cornflowerblue;}
+.submenu {display: none; width: 100%; position: absolute; z-index: 3; list-style: none;}
+.submenu > li{padding: 5px 0; z-index: 2; background: rgba(255, 255, 255, 0.6); margin-right: 30px;}
+.submenu > li:hover{background-color: aquamarine;}
+
+/* section */
+section{float: left; margin-top: 20px;  width: 1650px; margin-left: 15px; margin-right: 45px;}
+.accordion-body{width: 1400px;}
+.img-thumbnail{float: left; margin-right: 15px;}
+.top{margin-top: 10px;}
+
+/* footer */
+footer{float: left; margin-top: 250px; background-color: rgb(0, 164, 0);  width: 1650px; height: 100px;}
+footer > p{text-align: center; color: white; font-family: "Do Hyeon";}

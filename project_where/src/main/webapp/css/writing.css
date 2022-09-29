@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* 구글 폰트 */
+/*Do Hyeon*/@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+a{text-decoration:none;color:black;}
+a:hover{text-decoration:yes;color:#66CCFF;}
+a:visited {text-decoration:none;}
+
+body{margin: 50px 100px}
+.write{width:1650px; height:auto;}
+.headname{font-size:40px; font-family:Do Hyeon;}
+td{font-size:25px;}
+#in{width:1500px; height:50px;}
+.bgcolor{background-color:black; color:white; font-family:Do Hyeon;}

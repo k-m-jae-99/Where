@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* 구글 폰트 */
+/*Do Hyeon*/@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+/* 전체적인 설정 */
+body{margin: 50px 100px}
+a{text-decoration:none;}
+hr{margin:15px 20px 15px 5px;}
+
+/* section */
+section{float: left; margin-top: 20px;  width: 1650px; margin-left: 15px; margin-right: 45px;}
+#travel{font-family:Do Hyeon;}
+
+/* 움직이는 화면 */
+.slide{width: 600px; margin-left: 70px;}
+#house{margin-left: 900px; margin-top: -150px; font-weight: bold; font-family:"궁서"; font-size: large;}
+#house > p {font-weight: normal; font-size: medium; font-family:"바탕";}
+
+/* main국내추천여행 */
+.best{float:left; font-family: "Do Hyeon"; margin-top: 15px;}
+#hmm{margin-top:70px}
+.card{margin-left: 100px; float: left; height: 620px; border-color: black;}
+.card-title{font-weight: bold;}
+.btn btn-primary{font-family: "Do Hyeon";}
+
+#fastival{float: left;}
+#umm{margin-top: 70px; width: 1650px;}
+
+
+.headname{font-size:40px; font-family:Do Hyeon;}

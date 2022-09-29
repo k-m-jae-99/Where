@@ -1,0 +1,6 @@
+@charset "UTF-8";
+/* 구글 폰트 */
+/*Do Hyeon*/@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+section{margin-top:100px;}
+.headname{font-size:30px; font-family:Do Hyeon;}
